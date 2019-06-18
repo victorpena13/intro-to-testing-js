@@ -1,10 +1,14 @@
 // helloWorld function
-function helloWorld() {
+function helloWorld(input) {
     return "Hello, World!";
 }
 
-function sayHello() {
-    return "Hello, Jane!";
+function sayHello(input) {
+ if (input === "Alex") {
+     return "Hello, Alex!";
+ } else {
+     return "Hello, Jane!"
+ }
 }
 // // function expression syntax (assigning an anonymous function to a variable)
 // const helloWorld = function() {

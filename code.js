@@ -16,7 +16,7 @@ function helloWorld(input) {
 // }
 
 
-function sayHello(input) {
+function sayHello(input){
     if (input === true || input === false) {
         return "Hello, World!";
     } else if (input === undefined) {

@@ -4,7 +4,7 @@ function helloWorld() {
 }
 
 function sayHello() {
-    return "";
+    return "Hello, Jane!";
 }
 // // function expression syntax (assigning an anonymous function to a variable)
 // const helloWorld = function() {
